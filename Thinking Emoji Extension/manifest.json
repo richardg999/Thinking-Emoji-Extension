@@ -1,0 +1,20 @@
+{
+	"name": "Thinking Emoji Extension",
+	"version": "1.0",
+	"description": "Places a thinking emoji",
+	"permissions": ["activeTab", "clipboardWrite"],
+	"background": {
+	  "scripts": ["background.js"],
+	  "persistent": false
+	},
+	"browser_action": {
+      "default_icon": "images/thinking_face.png"
+  },
+  "icons": {
+    "16": "images/thinking_face_16.png",
+    "32": "images/thinking_face_32.png",
+    "48": "images/thinking_face_48.png",
+    "128": "images/thinking_face_128.png"
+  },
+	"manifest_version": 2
+}
